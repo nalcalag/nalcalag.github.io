@@ -54,5 +54,9 @@ function main(){
 		}
  
 	});
- 
+	$('.nav-menu').click(function(){
+		if(contador == 0){
+			$('.nav-menu').toggle(); 
+		}
+	});
 };

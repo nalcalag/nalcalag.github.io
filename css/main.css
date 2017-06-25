@@ -197,6 +197,7 @@ ul.nav-menu li a:hover {
 }
 
 @media screen and (max-width:600px ) {
+	
 	ul.nav-menu {
 		width:100%;
 		left:-100%;
@@ -272,11 +273,6 @@ ul.nav-menu li a:hover {
 	background: url("../images/header-image.jpg") no-repeat;
 	background-position: center bottom;
 }
-
-
-/*===================================
-============== Slider ===============
-===================================*/
 #header-image .inner {
 	background: transparent;
 }
@@ -327,6 +323,13 @@ ul.nav-menu li a:hover {
 	-webkit-transition-duration: 0.5s;
 	transition-duration: 0.5s;
 	}
+
+@media screen and (max-width:600px ) {
+	/* Social icons header-image */
+	#header-image ul {
+		margin-left: 0;
+	}
+}
 
 /*===================================
 ============= Services ==============
@@ -402,7 +405,11 @@ ul.nav-menu li a:hover {
 #services ul li h4 {
 	float: right;
 	width: 220px;
+	margin-top: 20px;
 	}
+#services h2.skills-end {
+	text-align: center;
+}
 
 #services ul li p {
 	float: right;
@@ -472,6 +479,11 @@ ul.nav-menu li a:hover {
 #portfolio ul.portfolio {
 	width: 100%;
 	padding: 19px 0 0 0;
+	}
+
+#portfolio ul.portfolio h4 {
+	text-align: center;
+	margin-top: 5px;
 	}
 
 #portfolio ul.portfolio li {
