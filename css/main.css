@@ -192,6 +192,75 @@ ul.nav-menu li a:hover {
 	transition-duration: 0.5s;
 	}
 
+.menu_bar {
+	display:none;
+}
+
+@media screen and (max-width:600px ) {
+	ul.nav-menu {
+		width:100%;
+		left:-100%;
+		margin:0;
+		position: fixed;
+		top: 85px;
+	}
+ 
+	ul.nav-menu li {
+		display:block;
+		float:none;
+		border-bottom:1px solid rgba(255,255,255, .3);
+		background: #2d303a;
+		line-height: 20px;
+	}
+
+	ul.nav-menu li a {
+		display: block;
+	}
+	ul.nav-menu li a:first-child  {
+		margin-left: 13px;
+	}
+ 
+	.menu_bar {
+		display:block;
+		background:#ccc;
+		position: absolute;
+		top: 20px;
+		right: 20px;
+	}
+
+	.menu_bar .bt-menu:before {
+		font-family: 'fontello';
+		content: "\f0c9";
+		line-height: 40px;
+		margin-left: 8px;
+	}
+ 
+	.menu_bar .bt-menu {
+		display:block;
+		width:40px;
+		height: 40px;
+		color:#666;
+		background: transparent;
+		text-decoration:none;
+		font-weight: bold;
+		font-size:25px;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;
+		overflow: hidden;
+		border: 1px solid #666;
+		border-radius: 5px;
+		position: fixed;
+		top: 25px;
+		right: 10px;
+	}
+ 
+	.menu_bar span {
+		float:right;
+		font-size:40px;
+	}
+}
+
 
 /*===================================
 =========== Header Image ============
