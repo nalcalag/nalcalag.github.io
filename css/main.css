@@ -399,7 +399,7 @@ ul.nav-menu li a:hover {
 }
 
 .li_test:before {
-	content: "\e025";
+	content: "\e01f";
 }
 
 #services ul li h4 {
@@ -727,6 +727,15 @@ textarea {
 	-webkit-transition-duration: 0.5s;
 	transition-duration: 0.5s;
 	}
+
+#contact ul .contact-info a {
+	text-decoration: none;
+	color: #fff;
+}
+
+#contact #contact-into a:hover {
+	text-decoration: underline;
+}
 
 #contact p {
 	margin: 0 0 25px 0;
